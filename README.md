@@ -1,6 +1,6 @@
-<h1 align="center"> site-config </h1>
+<h1 align="center"> site-builder </h1>
 
-<p align="center"> Simply configure your site.</p>
+<p align="center"> A site configuration builder.</p>
 
 
 ## Installing

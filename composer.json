@@ -1,6 +1,6 @@
 {
-    "name": "her-cat/site-config",
-    "description": "Simply configure your sit.",
+    "name": "her-cat/site-builder",
+    "description": "A site configuration builder.",
     "license": "MIT",
     "authors": [
         {
@@ -8,7 +8,11 @@
             "email": "hxhsoft@foxmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "symfony/console": "^3.0|^4.0",
+        "symfony/process": "^3.0|^4.0",
+        "symfony/filesystem": "^3.0|^4.0"
+    },
     "autoload": {
         "psr-4": {
             "HerCat\\SiteConfig\\": "src"
