@@ -1,0 +1,17 @@
+{
+    "name": "her-cat\/site-config",
+    "description": "Simply configure your sit.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "her-cat",
+            "email": "hxhsoft@foxmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "HerCat\\SiteConfig\\": "src"
+        }
+    }
+}
