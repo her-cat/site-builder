@@ -1,12 +1,12 @@
-<h1 align="center"> /site-config </h1>
+<h1 align="center"> site-config </h1>
 
-<p align="center"> Simply configure your sit..</p>
+<p align="center"> Simply configure your site.</p>
 
 
 ## Installing
 
 ```shell
-$ composer require hercat//site-config -vvv
+$ composer require hercat/site-config -vvv
 ```
 
 ## Usage
