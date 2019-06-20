@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "HerCat\\SiteConfig\\": "src"
+            "HerCat\\SiteBuilder\\": "src"
         }
     }
 }
