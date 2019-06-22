@@ -2,9 +2,8 @@
 
 <?php
 
-use HerCat\SiteConfig\Application;
+use HerCat\SiteBuilder\Application;
 
-echo dirname(dirname(__FILE__)).'/vendor/autoload.php';
 if (file_exists(dirname(dirname(__FILE__)).'/vendor/autoload.php')) {
     require_once dirname(dirname(__FILE__)).'/vendor/autoload.php';
 } else if (file_exists(dirname(__FILE__).'/../../../autoload.php')) {
@@ -13,6 +12,6 @@ if (file_exists(dirname(dirname(__FILE__)).'/vendor/autoload.php')) {
     throw new Exception('Can not load composer autoloader; Try running "composer install".');
 }
 
-$app = new Application('Site Config', '@package_version@');
+$app = new Application('Site Builder', '@package_version@');
 
 $app->run();
