@@ -1,10 +1,18 @@
 <?php
 
+/*
+ * This file is part of the her-cat/site-builder.
+ *
+ * (c) her-cat <hxhsoft@foxmail.com>
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
 
 namespace HerCat\SiteBuilder;
 
 use HerCat\SiteBuilder\Commands\BuildCommand;
-use \Symfony\Component\Console\Application as ConsoleApplication;
+use Symfony\Component\Console\Application as ConsoleApplication;
 
 /**
  * Class Application.

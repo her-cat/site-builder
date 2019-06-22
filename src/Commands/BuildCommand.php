@@ -1,5 +1,13 @@
 <?php
 
+/*
+ * This file is part of the her-cat/site-builder.
+ *
+ * (c) her-cat <hxhsoft@foxmail.com>
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
 
 namespace HerCat\SiteBuilder\Commands;
 
@@ -23,17 +31,17 @@ class BuildCommand extends Command
     protected $fs;
 
     /**
-     * @var String
+     * @var string
      */
     protected $nginxConfFile;
 
     /**
-     * @var String
+     * @var string
      */
     protected $nginxConfDirectory = '/usr/local/etc/nginx/conf.d/%s.conf';
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     protected function configure()
     {
@@ -42,7 +50,7 @@ class BuildCommand extends Command
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function execute(InputInterface $input, OutputInterface $output)
     {
